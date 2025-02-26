@@ -1,0 +1,8 @@
+{
+  "name":"Dev Container YOLO-World",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "runArgs": ["--name","devcontainer-python"]
+  
+}

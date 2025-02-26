@@ -1,0 +1,9 @@
+version: "1.0"
+services:
+  my-service:
+    image: ./  # 替换为您的 Docker 镜像
+    ports:
+      - "8080:8080"  # 映射端口
+    volumes:
+      - .:/workspace  # 挂载当前目录到容器
+
